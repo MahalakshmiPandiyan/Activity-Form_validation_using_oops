@@ -1,0 +1,21 @@
+Parent class
+{
+Constructor (each field name)
+Method for each field name 
+	name (calling alphaValidation  )
+ 	emailId (calling emailIdValidation)
+	phoneNumber (calling alphaNumericValidation)
+	gender (calling genderValidation)
+	domainName (calling domainNameValidation)
+}
+
+Child class
+{
+Function for each field name (which is used for validation)
+	alphaValidation  -> contain only alpha using regex
+ 	emailIdValidation -> separate validation for username, domain and extension using regex
+	alphaNumericValidation -> 10 digits only using regex
+	genderValidation ->male/female 
+	domainNameValidation	 ->bfs/eba
+}
+
