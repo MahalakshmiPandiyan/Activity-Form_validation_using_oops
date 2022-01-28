@@ -1,0 +1,128 @@
+<!DOCTYPE html>  
+<html> 
+<head>
+<style>
+body {
+  font-family: Calibr;
+  background-color:#0066ff;
+
+}
+.box
+{
+ width:800px;
+ height:750px;
+ margin:auto;
+ margin-top:40px;
+ background-color:white; 
+}
+.box .header{
+ background-color:black;
+}
+.box .header h3{
+ color:white;
+ padding:2px;
+}
+
+.form{
+  padding:50px;
+}
+
+.form-control{
+  margin-bottom: 10px;
+  padding-bottom:10px;
+  position: relative; 
+}
+
+.form-control input{
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #D3D3D3; 
+  border-color: black;
+  font-size: 15px;
+}
+
+.form-control label{
+  display: inline-block;
+  width: 150px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.form-control small{
+  position: absolute;
+  margin:3px;
+  visibility: hidden;
+}
+button{
+  background-color: rgb(4,4,95);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border:2px solid rgb(4,4,95);
+}
+</style>
+</head>   
+<body>  
+<div class="box">
+  <div class="header">
+    <center><h3>Sri Krishna</h3></center>
+  </div>
+  <form id="form" method="post" >
+    <div class="form-control">
+      <label for="firstname" name="firstname"> <b>First Name</label> 
+      <input type="text" id="firstname" name="firstname" placeholder="Firstname"  required>    
+      <small>Error Message</small>
+    </div>
+
+     <div class="form-control">
+      <label for="lastname" name="lastname"> Last Name</label>    
+      <input type="text" id="lastname" name="lastname" placeholder="Lastname" required>   
+      <small>Error Message</small>
+      </div>
+ 
+      <div class="form-control">
+      <label for="company" name="company"> Company </label>
+      <input type="text" id="company"  name="company"  placeholder="Enter name of the company" value="Aspire System">
+      <small>Error Message</small>
+      </div>
+
+
+      <div class="form-control"> 
+      <label for="email" name="class">Email Id</label>     
+      <input type="text" id="email" name="email" placeholder="Enter your email id" required>  
+      <small>Error Message</small> 
+      </div>
+
+      <div class="form-control">
+      <label for="phone" name="phone"> Phone No</label>  
+      <input type="text" placeholder="Enter phone number" name="phoneNumber" id="phoneNumber"  required>   
+      <small>Error Message</small>
+      </div>
+
+
+      <div class="form-control">  
+      <label for="gender" name="gender">  Gender</label> 
+      <input type="text" placeholder="Enter gender" name="gender" id="gender" required>   
+      <small>Error Message</small>
+      </div>
+
+
+      <div class="form-control">
+      <label for="domain" name="domain"> Domain </label>   
+      <input type="text" id="domain" name="domain" placeholder= "Enter domain" required >     
+      <small>Error Message</small> 
+      </div>
+
+
+      <div class="form-control">
+      <center><button type="submit" >Submit</button></center>
+      </div>
+
+  </form>
+</div>
+
+<script  src="form.js"></script>
+</body>
+</html>  
